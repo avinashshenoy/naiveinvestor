@@ -42,5 +42,13 @@ module.exports = {
         trackingId: "UA-158117560-1",
       },
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /\.inline\.svg$/
+        }
+      }
+    },
   ],
 }
