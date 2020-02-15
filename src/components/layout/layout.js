@@ -1,9 +1,8 @@
 import React from "react"
 import { css } from "@emotion/core"
 import { useStaticQuery, Link, graphql } from "gatsby"
-//import logo from "../../images/logo.png"
-//import Icon from "../../images/logo.svg"
-import LogoIcon from '../../images/LogoIcon';
+import icon from "../../images/logo4848.svg"
+//import LogoIcon from '../../images/LogoIcon';
 
 import { rhythm } from "../../utils/typography"
 
@@ -28,7 +27,10 @@ export default ({ children }) => {
       padding-top: ${rhythm(1.5)};
     `}
   >
-    <LogoIcon />
+    
+    <Link to="/" className="navbar-logo" title="Logo">
+      <img src={icon} alt="NaiveInvestor" style={{ width: '48px' }} />
+    </Link>
 
     <Link to={`/`}>
       <h3
