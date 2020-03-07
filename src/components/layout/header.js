@@ -24,7 +24,7 @@ export default () => {
 				     <img src={icon} alt="NaiveInvestor" style={{ width: '48px' }} />
 				   </Link>
 		        </div>
-		        <div class="flex font-bold font-serif text-blue-500 text-2xl mr-3" >
+		        <div class="flex font-bold font-serif text-blue-500 sm:text-2xl text-lg mr-3" >
 		        	<Link to="/" >
 		        	{data.site.siteMetadata.title}
 		        	</Link>
